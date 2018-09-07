@@ -15,5 +15,6 @@ namespace BackEnd.DAL
         }
 
         public DbSet<Student> Students { get; set; }
+        public DbSet<Course> Courses { get; set; }
     }
 }
